@@ -6,6 +6,7 @@ import com.prashantjain.yummyrest.entity.Customer;
 import com.prashantjain.yummyrest.mapper.CustomerMapper;
 import com.prashantjain.yummyrest.repo.CustomerRepo;
 import jakarta.validation.Valid;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestBody;
